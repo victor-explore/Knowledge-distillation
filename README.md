@@ -9,7 +9,6 @@ This repository implements a pipeline to train a ResNet-50 on an animal image da
 - **Knowledge Distillation:** Distills ResNet-50 knowledge into a smaller MLP model using KL Divergence loss.
 - **Visualization:** Plots training loss and accuracy for both models.
 
----
 
 ## Project Structure
 
@@ -24,7 +23,6 @@ ASSN3/
     └── main.py                       # Main script for training and distillation
 ```
 
----
 
 ## Installation
 
@@ -41,7 +39,6 @@ ASSN3/
 pip install -r requirements.txt
 ```
 
----
 
 ## Dataset
 
@@ -83,7 +80,6 @@ Run the main script:
 python main.py
 ```
 
----
 
 ## Key Functions
 
@@ -100,7 +96,6 @@ python main.py
 ### Visualization
 - **`plot_metrics(train_losses, top1_accuracies, top5_accuracies)`**: Plots training loss and accuracy curves.
 
----
 
 ## Configuration
 
@@ -114,29 +109,7 @@ TRAIN_RESNET = False          # Toggle ResNet training
 DISTILL_RESNET = True         # Toggle MLP distillation
 ```
 
----
-
-## Results
-
-### ResNet-50:
-- **Top-1 Accuracy:** X.XX%
-- **Top-5 Accuracy:** X.XX%
-
-### MLP Distillation:
-- **Top-1 Accuracy:** X.XX%
-- **Top-5 Accuracy:** X.XX%
-
----
-
-## Citation
-
-If you find this repository useful, please consider citing it.
-
----
 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
-
-Let me know if you'd like to include additional details!
